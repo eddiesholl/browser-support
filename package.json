@@ -1,0 +1,15 @@
+{
+  "name": "node-browser-support",
+  "version": "0.1.0",
+  "description": "Checks a browser useragent against minimum version rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eddie Sholl",
+  "license": "ISC",
+  "dependencies": {
+    "express-useragent": "^0.2.4",
+    "mocha": "^3.0.2"
+  }
+}
