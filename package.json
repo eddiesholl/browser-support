@@ -4,12 +4,20 @@
   "description": "Checks a browser useragent against minimum version rules",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/eslint/bin/eslint.js . && mocha"
   },
   "author": "Eddie Sholl",
   "license": "ISC",
+  "eslintConfig": ".eslintrc",
   "dependencies": {
+    "chai": "^3.5.0",
     "express-useragent": "^0.2.4",
     "mocha": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.0",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
   }
 }
