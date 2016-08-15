@@ -1,23 +1,24 @@
 {
-  "name": "node-browser-support",
-  "version": "0.1.0",
-  "description": "Checks a browser useragent against minimum version rules",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/eslint/bin/eslint.js . && mocha"
-  },
-  "author": "Eddie Sholl",
-  "license": "ISC",
-  "eslintConfig": ".eslintrc",
-  "dependencies": {
-    "chai": "^3.5.0",
-    "express-useragent": "^0.2.4",
-    "mocha": "^3.0.2"
-  },
-  "devDependencies": {
-    "eslint": "^3.3.0",
-    "eslint-config-standard": "^5.3.5",
-    "eslint-plugin-promise": "^2.0.1",
-    "eslint-plugin-standard": "^2.0.0"
-  }
+    "name": "node-browser-support",
+    "version": "0.1.0",
+    "description": "Checks a browser useragent against minimum version rules",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/eslint/bin/eslint.js . && mocha"
+    },
+    "author": "Eddie Sholl",
+    "license": "ISC",
+    "eslintConfig": ".eslintrc",
+    "dependencies": {
+        "semver": "^5.3.0",
+        "useragent": "^2.1.9"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "eslint": "^3.3.0",
+        "eslint-config-standard": "^5.3.5",
+        "eslint-plugin-promise": "^2.0.1",
+        "eslint-plugin-standard": "^2.0.0",
+        "mocha": "^3.0.2"
+    }
 }
