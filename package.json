@@ -1,6 +1,6 @@
 {
     "name": "supported-browsers",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Checks a browser useragent against minimum version rules",
     "main": "index.js",
     "scripts": {
