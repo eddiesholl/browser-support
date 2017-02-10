@@ -9,13 +9,10 @@ const versionsChrome15 = {
 const versionsChrome14 = {
     Chrome: '14.x'
 };
-const versionsFirefox20 = {
-    Firefox: '20.x'
-};
 
 var sutChrome14;
 var sutChrome15;
-var sutMobileSafari;
+var sutMobileSafariAndOthers;
 
 const chrome15onMac = useragent.parse('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_1) AppleWebKit/535.2 (KHTML, like Gecko) Chrome/15.0.874.24 Safari/535.2');
 const mobileSafari = useragent.parse('Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A365 Safari/600.1.4');
