@@ -1,6 +1,6 @@
 {
     "name": "supported-browsers",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Checks a browser useragent against minimum version rules",
     "main": "index.js",
     "scripts": {
@@ -10,6 +10,13 @@
     "license": "ISC",
     "homepage": "https://github.com/eddiesholl/supported-browsers",
     "eslintConfig": ".eslintrc",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/eddiesholl/supported-browsers.git"
+    },
+    "bugs": {
+      "url": "https://github.com/eddiesholl/supported-browsers/issues"
+    },
     "dependencies": {
         "semver": "^5.3.0",
         "useragent": "^2.1.9"
