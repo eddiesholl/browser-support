@@ -57,4 +57,4 @@ app.use(showUnsupportedPage);
 
 # License
 
-MIT
+ISC
